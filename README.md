@@ -1,2 +1,2 @@
-# portfolio
-https://aagaev.github.io/portfolio/index.html
+
+https://aagaev.github.io/portfolio/dist/index.html
