@@ -28,8 +28,8 @@
     z-index: 10;
     visibility: hidden;
     opacity: 0;
-    transition: all 0.7;
-    &.active {//class='menu active'
+    transition: all 0.6s;
+    &.active {//class='menu active
         left: 0;
         visibility: visible;
         opacity: 1;
@@ -42,7 +42,7 @@
         width: 345px;
         background-color: $main-color;
         height: 100%;
-        transition: all .7;
+        transition: all .6s;
         z-index: 10;
     }
     &__close {
