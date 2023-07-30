@@ -21,3 +21,14 @@ document.addEventListener('keydown', (e) => {
         menu.classList.remove('active')
     }
 });
+
+const counters = document.querySelectorAll('.skills__ratings-counter');
+const lines = document.querySelectorAll('.skills__ratings-line span');
+
+console.log(counters)
+console.log(lines)
+
+counters.forEach((item, i) => {
+    lines[i].style.width = item.innerHTML;
+})
+
