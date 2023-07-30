@@ -1,0 +1,16 @@
+.resume {
+    padding-top: 120px;
+    &__title {
+        position: relative;
+        text-align: center;   
+        @include before_circle;  
+        &:before {//rewrite styles of before_circle
+            left: 50%; //left was '0'
+            transform: translateX(-50%);
+            top: -6px;
+        }       
+    };
+    &__subtitle {
+        text-align: center;        
+    };
+}
